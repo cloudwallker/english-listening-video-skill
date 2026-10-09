@@ -1,0 +1,102 @@
+{
+  "title": "街角书店",
+  "title_en": "The Little Bookshop",
+  "level": "A1-A2",
+  "accent": "en-US",
+  "repeats": 1,
+  "sentences": [
+    {
+      "en": "After work, I visit a little bookshop.",
+      "zh": "下班后，我去逛一家小书店。",
+      "ipa": "/ˈæf.tɚ wɝːk aɪ ˈvɪz.ɪt ə ˈlɪt.əl ˈbʊk.ʃɑːp/",
+      "focus": [
+        {
+          "word": "bookshop",
+          "ipa": "/ˈbʊk.ʃɑːp/",
+          "zh": "书店"
+        }
+      ]
+    },
+    {
+      "en": "It is on a quiet corner near my home.",
+      "zh": "书店在我家附近一个安静的街角。",
+      "ipa": "/ɪt ɪz ɑːn ə ˈkwaɪ.ət ˈkɔːr.nɚ nɪr maɪ hoʊm/",
+      "focus": [
+        {
+          "word": "quiet",
+          "ipa": "/ˈkwaɪ.ət/",
+          "zh": "安静的"
+        }
+      ]
+    },
+    {
+      "en": "A kind woman smiles and says hello.",
+      "zh": "一位和善的女士微笑着向我问好。",
+      "ipa": "/ə kaɪnd ˈwʊm.ən smaɪlz ənd sez həˈloʊ/",
+      "focus": []
+    },
+    {
+      "en": "I find a small book on a low shelf.",
+      "zh": "我在低处的书架上找到一本小书。",
+      "ipa": "/aɪ faɪnd ə smɑːl bʊk ɑːn ə loʊ ʃelf/",
+      "focus": [
+        {
+          "word": "shelf",
+          "ipa": "/ʃelf/",
+          "zh": "架子"
+        }
+      ]
+    },
+    {
+      "en": "The story is about a dog and a boy.",
+      "zh": "这个故事讲的是一只狗和一个男孩。",
+      "ipa": "/ðə ˈstɔːr.i ɪz əˈbaʊt ə dɑːɡ ənd ə bɔɪ/",
+      "focus": []
+    },
+    {
+      "en": "I sit by the window and read a page.",
+      "zh": "我坐在窗边，读一页书。",
+      "ipa": "/aɪ sɪt baɪ ðə ˈwɪn.doʊ ənd riːd ə peɪdʒ/",
+      "focus": [
+        {
+          "word": "window",
+          "ipa": "/ˈwɪn.doʊ/",
+          "zh": "窗户"
+        }
+      ]
+    },
+    {
+      "en": "Outside, people walk home in the light rain.",
+      "zh": "窗外，人们冒着小雨步行回家。",
+      "ipa": "/ˌaʊtˈsaɪd ˈpiː.pəl wɑːk hoʊm ɪn ðə laɪt reɪn/",
+      "focus": []
+    },
+    {
+      "en": "The woman brings me a cup of warm tea.",
+      "zh": "那位女士给我端来一杯温热的茶。",
+      "ipa": "/ðə ˈwʊm.ən brɪŋz miː ə kʌp əv wɔːrm tiː/",
+      "focus": []
+    },
+    {
+      "en": "I buy the book and thank her.",
+      "zh": "我买下这本书，并向她道谢。",
+      "ipa": "/aɪ baɪ ðə bʊk ənd θæŋk hɚ/",
+      "focus": []
+    },
+    {
+      "en": "At home, I read another page before bed.",
+      "zh": "回到家，我在睡前再读一页书。",
+      "ipa": "/ət hoʊm aɪ riːd əˈnʌð.ɚ peɪdʒ bɪˈfɔːr bed/",
+      "focus": []
+    }
+  ],
+  "edge_rate": "-20%",
+  "width": 1920,
+  "height": 1080,
+  "target_wpm": 100.0,
+  "sapi_rate": -5,
+  "pause": 0.6,
+  "actual_wpm_with_native_pauses": 135.49239920687376,
+  "speech_mode": "natural",
+  "displayed_wpm_metric": "including_native_pauses"
+}

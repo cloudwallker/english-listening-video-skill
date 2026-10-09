@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "created": "2026-10-09",
+  "assets": [
+    {"file": "bookshop-background.png", "source": "Original image generated for this skill using the built-in imagegen tool", "role": "Warm watercolor bookshop background; no text"},
+    {"file": "reading-fox.png", "source": "Original image generated for this skill using the built-in imagegen tool", "role": "Seated reading fox with alpha transparency"}
+  ],
+  "compositing": "Illustrations are layered with programmatic rain, steam and gentle character/page motion. Captions are rendered separately.",
+  "third_party_reference_artwork": "None copied into these assets"
+}

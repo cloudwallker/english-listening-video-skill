@@ -1,0 +1,7 @@
+interface:
+  display_name: "自然慢讲英语磨耳朵"
+  short_description: "先同稿自然慢讲试听，再用认可的原音轨制作中英字幕与 IPA 听力动画"
+  default_prompt: "使用 $english-listening-video 先提供同稿自然慢讲试听，声音认可后保持原音轨与节奏，制作带英文、中文和 IPA 的可播放动画 MP4。"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,9 @@
+# Optional known-text CPU alignment environment; separate from video/TTS.
+# Windows/Linux CPU installation:
+# uv pip install --index-url https://download.pytorch.org/whl/cpu torch==2.5.1 torchaudio==2.5.1
+# uv pip install numpy==1.26.4
+# A local "+cpu" build satisfies these pinned public versions (PEP 440).
+# macOS: install this file from PyPI; the CPU wheels use the same versions.
+torch==2.5.1
+torchaudio==2.5.1
+numpy==1.26.4

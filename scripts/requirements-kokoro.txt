@@ -1,0 +1,5 @@
+# Install only in an isolated Python 3.10-3.13 environment, never into Python 3.9.
+kokoro-onnx==0.6.1
+soundfile==0.13.1
+# Edge is included for same-script audition comparisons in this environment.
+edge-tts==7.2.8

@@ -1,0 +1,7 @@
+{
+  "kokoro_python": "PATH_TO_KOKORO_ENV/python.exe",
+  "kokoro_model": "PATH_TO_MODELS/kokoro-v1.0.onnx",
+  "kokoro_voices": "PATH_TO_MODELS/voices-v1.0.bin",
+  "audio_cache": "PATH_TO_WRITABLE_CACHE",
+  "espeak_data_path": "PATH_TO_ASCII_ESPEAK_DATA"
+}

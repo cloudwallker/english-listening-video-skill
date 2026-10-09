@@ -1,0 +1,1279 @@
+{
+  "schema_version": 1,
+  "audio_duration": 36.312,
+  "method": "Known-text CTC forced alignment + measured PCM silence midpoint subtitle boundaries",
+  "quality": {
+    "status": "passed",
+    "known_text_words": 82,
+    "aligned_words": 82,
+    "word_coverage": 1.0,
+    "mean_ctc_word_score": 0.9689469390243902,
+    "minimum_ctc_word_score": 0.724282,
+    "low_score_threshold": 0.45,
+    "low_score_words": [],
+    "greedy_asr_text": "AFTER WORK I VISIT A LITTLE BOOK SHOP IT IS ON A QUIET CORNER NEAR MY HOME A KIND WOMAN SMILES AND SAYS HALLO I FIND A SMALL BOOK ON A LOW SHELF THE STORY IS ABOUT A DOG AND A BOY I SIT BY THE WINDOW AND READ A PAGE OUTSIDE PEOPLE WALK HOME IN THE LIGHT RAIN THE WOMAN BRINGS ME A CUP OF WARM TEA I BUY THE BOOK AND THINK HER AT HOME I READ ANOTHER PAGE BEFORE BED",
+    "greedy_character_error_rate_without_spaces": 0.0070921985815602835,
+    "greedy_check_use": "Independent acoustic plausibility check; original transcript remains authoritative",
+    "all_boundaries_have_measured_silence": true,
+    "continuous_caption_timeline": true,
+    "score_caveat": "Model scores are not calibrated probabilities of boundary accuracy",
+    "manual_auditory_alignment_review": false,
+    "source_hash_before_equals_after": true
+  },
+  "segments": [
+    {
+      "sentence_index": 0,
+      "en": "After work, I visit a little bookshop.",
+      "speech_start": 0.320106,
+      "speech_end": 2.840939,
+      "word_start_index": 0,
+      "word_end_index": 6,
+      "mean_ctc_word_score": 0.9791958571428572,
+      "minimum_ctc_word_score": 0.952779,
+      "start": 0.0,
+      "end": 3.542917
+    },
+    {
+      "sentence_index": 1,
+      "en": "It is on a quiet corner near my home.",
+      "speech_start": 4.181382,
+      "speech_end": 6.322089,
+      "word_start_index": 7,
+      "word_end_index": 15,
+      "mean_ctc_word_score": 0.9593552222222222,
+      "minimum_ctc_word_score": 0.840136,
+      "start": 3.542917,
+      "end": 7.06474
+    },
+    {
+      "sentence_index": 2,
+      "en": "A kind woman smiles and says hello.",
+      "speech_start": 7.742559,
+      "speech_end": 10.023312,
+      "word_start_index": 16,
+      "word_end_index": 22,
+      "mean_ctc_word_score": 0.9422947142857143,
+      "minimum_ctc_word_score": 0.803176,
+      "start": 7.06474,
+      "end": 10.797708
+    },
+    {
+      "sentence_index": 3,
+      "en": "I find a small book on a low shelf.",
+      "speech_start": 11.463788,
+      "speech_end": 13.604496,
+      "word_start_index": 23,
+      "word_end_index": 31,
+      "mean_ctc_word_score": 0.9557115555555556,
+      "minimum_ctc_word_score": 0.724282,
+      "start": 10.797708,
+      "end": 14.385677
+    },
+    {
+      "sentence_index": 4,
+      "en": "The story is about a dog and a boy.",
+      "speech_start": 15.004959,
+      "speech_end": 17.025626,
+      "word_start_index": 32,
+      "word_end_index": 40,
+      "mean_ctc_word_score": 0.9937302222222222,
+      "minimum_ctc_word_score": 0.969791,
+      "start": 14.385677,
+      "end": 17.748406
+    },
+    {
+      "sentence_index": 5,
+      "en": "I sit by the window and read a page.",
+      "speech_start": 18.406083,
+      "speech_end": 20.586803,
+      "word_start_index": 41,
+      "word_end_index": 49,
+      "mean_ctc_word_score": 0.9886054444444444,
+      "minimum_ctc_word_score": 0.925003,
+      "start": 17.748406,
+      "end": 21.35725
+    },
+    {
+      "sentence_index": 6,
+      "en": "Outside, people walk home in the light rain.",
+      "speech_start": 22.047286,
+      "speech_end": 24.608132,
+      "word_start_index": 50,
+      "word_end_index": 57,
+      "mean_ctc_word_score": 0.9628092500000001,
+      "minimum_ctc_word_score": 0.899142,
+      "start": 21.35725,
+      "end": 25.348027
+    },
+    {
+      "sentence_index": 7,
+      "en": "The woman brings me a cup of warm tea.",
+      "speech_start": 25.948575,
+      "speech_end": 28.089283,
+      "word_start_index": 58,
+      "word_end_index": 66,
+      "mean_ctc_word_score": 0.9936188888888888,
+      "minimum_ctc_word_score": 0.975154,
+      "start": 25.348027,
+      "end": 28.863375
+    },
+    {
+      "sentence_index": 8,
+      "en": "I buy the book and thank her.",
+      "speech_start": 29.529759,
+      "speech_end": 30.970235,
+      "word_start_index": 67,
+      "word_end_index": 73,
+      "mean_ctc_word_score": 0.941075,
+      "minimum_ctc_word_score": 0.874459,
+      "start": 28.863375,
+      "end": 31.715125
+    },
+    {
+      "sentence_index": 9,
+      "en": "At home, I read another page before bed.",
+      "speech_start": 32.430717,
+      "speech_end": 35.111603,
+      "word_start_index": 74,
+      "word_end_index": 81,
+      "mean_ctc_word_score": 0.961753,
+      "minimum_ctc_word_score": 0.914895,
+      "start": 31.715125,
+      "end": 36.312
+    }
+  ],
+  "words": [
+    {
+      "word_index": 0,
+      "sentence_index": 0,
+      "sentence_word_index": 0,
+      "text": "AFTER",
+      "start": 0.320106,
+      "end": 0.560185,
+      "ctc_score": 0.975784,
+      "frame_start": 16,
+      "frame_end": 28
+    },
+    {
+      "word_index": 1,
+      "sentence_index": 0,
+      "sentence_word_index": 1,
+      "text": "WORK",
+      "start": 0.660218,
+      "end": 0.940311,
+      "ctc_score": 0.952779,
+      "frame_start": 33,
+      "frame_end": 47
+    },
+    {
+      "word_index": 2,
+      "sentence_index": 0,
+      "sentence_word_index": 2,
+      "text": "I",
+      "start": 1.380456,
+      "end": 1.400463,
+      "ctc_score": 0.999976,
+      "frame_start": 69,
+      "frame_end": 70
+    },
+    {
+      "word_index": 3,
+      "sentence_index": 0,
+      "sentence_word_index": 3,
+      "text": "VISIT",
+      "start": 1.520502,
+      "end": 1.800595,
+      "ctc_score": 0.96436,
+      "frame_start": 76,
+      "frame_end": 90
+    },
+    {
+      "word_index": 4,
+      "sentence_index": 0,
+      "sentence_word_index": 4,
+      "text": "A",
+      "start": 1.880621,
+      "end": 1.920635,
+      "ctc_score": 0.997426,
+      "frame_start": 94,
+      "frame_end": 96
+    },
+    {
+      "word_index": 5,
+      "sentence_index": 0,
+      "sentence_word_index": 5,
+      "text": "LITTLE",
+      "start": 1.980655,
+      "end": 2.220734,
+      "ctc_score": 0.977961,
+      "frame_start": 99,
+      "frame_end": 111
+    },
+    {
+      "word_index": 6,
+      "sentence_index": 0,
+      "sentence_word_index": 6,
+      "text": "BOOKSHOP",
+      "start": 2.260747,
+      "end": 2.840939,
+      "ctc_score": 0.986085,
+      "frame_start": 113,
+      "frame_end": 142
+    },
+    {
+      "word_index": 7,
+      "sentence_index": 1,
+      "sentence_word_index": 0,
+      "text": "IT",
+      "start": 4.181382,
+      "end": 4.241402,
+      "ctc_score": 0.840136,
+      "frame_start": 209,
+      "frame_end": 212
+    },
+    {
+      "word_index": 8,
+      "sentence_index": 1,
+      "sentence_word_index": 1,
+      "text": "IS",
+      "start": 4.321428,
+      "end": 4.401455,
+      "ctc_score": 0.999585,
+      "frame_start": 216,
+      "frame_end": 220
+    },
+    {
+      "word_index": 9,
+      "sentence_index": 1,
+      "sentence_word_index": 2,
+      "text": "ON",
+      "start": 4.501488,
+      "end": 4.541501,
+      "ctc_score": 0.99876,
+      "frame_start": 225,
+      "frame_end": 227
+    },
+    {
+      "word_index": 10,
+      "sentence_index": 1,
+      "sentence_word_index": 3,
+      "text": "A",
+      "start": 4.621527,
+      "end": 4.641534,
+      "ctc_score": 0.999019,
+      "frame_start": 231,
+      "frame_end": 232
+    },
+    {
+      "word_index": 11,
+      "sentence_index": 1,
+      "sentence_word_index": 4,
+      "text": "QUIET",
+      "start": 4.741567,
+      "end": 5.041666,
+      "ctc_score": 0.9999,
+      "frame_start": 237,
+      "frame_end": 252
+    },
+    {
+      "word_index": 12,
+      "sentence_index": 1,
+      "sentence_word_index": 5,
+      "text": "CORNER",
+      "start": 5.181712,
+      "end": 5.521825,
+      "ctc_score": 0.922398,
+      "frame_start": 259,
+      "frame_end": 276
+    },
+    {
+      "word_index": 13,
+      "sentence_index": 1,
+      "sentence_word_index": 6,
+      "text": "NEAR",
+      "start": 5.601851,
+      "end": 5.761904,
+      "ctc_score": 0.998573,
+      "frame_start": 280,
+      "frame_end": 288
+    },
+    {
+      "word_index": 14,
+      "sentence_index": 1,
+      "sentence_word_index": 7,
+      "text": "MY",
+      "start": 5.841931,
+      "end": 5.96197,
+      "ctc_score": 0.932758,
+      "frame_start": 292,
+      "frame_end": 298
+    },
+    {
+      "word_index": 15,
+      "sentence_index": 1,
+      "sentence_word_index": 8,
+      "text": "HOME",
+      "start": 6.062003,
+      "end": 6.322089,
+      "ctc_score": 0.943068,
+      "frame_start": 303,
+      "frame_end": 316
+    },
+    {
+      "word_index": 16,
+      "sentence_index": 2,
+      "sentence_word_index": 0,
+      "text": "A",
+      "start": 7.742559,
+      "end": 7.762565,
+      "ctc_score": 0.999803,
+      "frame_start": 387,
+      "frame_end": 388
+    },
+    {
+      "word_index": 17,
+      "sentence_index": 2,
+      "sentence_word_index": 1,
+      "text": "KIND",
+      "start": 7.862598,
+      "end": 8.122684,
+      "ctc_score": 0.986736,
+      "frame_start": 393,
+      "frame_end": 406
+    },
+    {
+      "word_index": 18,
+      "sentence_index": 2,
+      "sentence_word_index": 2,
+      "text": "WOMAN",
+      "start": 8.202711,
+      "end": 8.482803,
+      "ctc_score": 0.945645,
+      "frame_start": 410,
+      "frame_end": 424
+    },
+    {
+      "word_index": 19,
+      "sentence_index": 2,
+      "sentence_word_index": 3,
+      "text": "SMILES",
+      "start": 8.582836,
+      "end": 9.042988,
+      "ctc_score": 0.967547,
+      "frame_start": 429,
+      "frame_end": 452
+    },
+    {
+      "word_index": 20,
+      "sentence_index": 2,
+      "sentence_word_index": 4,
+      "text": "AND",
+      "start": 9.223048,
+      "end": 9.303074,
+      "ctc_score": 0.986263,
+      "frame_start": 461,
+      "frame_end": 465
+    },
+    {
+      "word_index": 21,
+      "sentence_index": 2,
+      "sentence_word_index": 5,
+      "text": "SAYS",
+      "start": 9.383101,
+      "end": 9.583167,
+      "ctc_score": 0.906893,
+      "frame_start": 469,
+      "frame_end": 479
+    },
+    {
+      "word_index": 22,
+      "sentence_index": 2,
+      "sentence_word_index": 6,
+      "text": "HELLO",
+      "start": 9.643187,
+      "end": 10.023312,
+      "ctc_score": 0.803176,
+      "frame_start": 482,
+      "frame_end": 501
+    },
+    {
+      "word_index": 23,
+      "sentence_index": 3,
+      "sentence_word_index": 0,
+      "text": "I",
+      "start": 11.463788,
+      "end": 11.483795,
+      "ctc_score": 0.99997,
+      "frame_start": 573,
+      "frame_end": 574
+    },
+    {
+      "word_index": 24,
+      "sentence_index": 3,
+      "sentence_word_index": 1,
+      "text": "FIND",
+      "start": 11.603835,
+      "end": 11.803901,
+      "ctc_score": 0.985179,
+      "frame_start": 580,
+      "frame_end": 590
+    },
+    {
+      "word_index": 25,
+      "sentence_index": 3,
+      "sentence_word_index": 2,
+      "text": "A",
+      "start": 11.903934,
+      "end": 11.92394,
+      "ctc_score": 0.999788,
+      "frame_start": 595,
+      "frame_end": 596
+    },
+    {
+      "word_index": 26,
+      "sentence_index": 3,
+      "sentence_word_index": 3,
+      "text": "SMALL",
+      "start": 12.003967,
+      "end": 12.304066,
+      "ctc_score": 0.99768,
+      "frame_start": 600,
+      "frame_end": 615
+    },
+    {
+      "word_index": 27,
+      "sentence_index": 3,
+      "sentence_word_index": 4,
+      "text": "BOOK",
+      "start": 12.384093,
+      "end": 12.584159,
+      "ctc_score": 0.989064,
+      "frame_start": 619,
+      "frame_end": 629
+    },
+    {
+      "word_index": 28,
+      "sentence_index": 3,
+      "sentence_word_index": 5,
+      "text": "ON",
+      "start": 12.724205,
+      "end": 12.764218,
+      "ctc_score": 0.999368,
+      "frame_start": 636,
+      "frame_end": 638
+    },
+    {
+      "word_index": 29,
+      "sentence_index": 3,
+      "sentence_word_index": 6,
+      "text": "A",
+      "start": 12.864251,
+      "end": 12.904264,
+      "ctc_score": 0.724282,
+      "frame_start": 643,
+      "frame_end": 645
+    },
+    {
+      "word_index": 30,
+      "sentence_index": 3,
+      "sentence_word_index": 7,
+      "text": "LOW",
+      "start": 12.964284,
+      "end": 13.124337,
+      "ctc_score": 0.999837,
+      "frame_start": 648,
+      "frame_end": 656
+    },
+    {
+      "word_index": 31,
+      "sentence_index": 3,
+      "sentence_word_index": 8,
+      "text": "SHELF",
+      "start": 13.264383,
+      "end": 13.604496,
+      "ctc_score": 0.906236,
+      "frame_start": 663,
+      "frame_end": 680
+    },
+    {
+      "word_index": 32,
+      "sentence_index": 4,
+      "sentence_word_index": 0,
+      "text": "THE",
+      "start": 15.004959,
+      "end": 15.104992,
+      "ctc_score": 0.998821,
+      "frame_start": 750,
+      "frame_end": 755
+    },
+    {
+      "word_index": 33,
+      "sentence_index": 4,
+      "sentence_word_index": 1,
+      "text": "STORY",
+      "start": 15.185018,
+      "end": 15.505124,
+      "ctc_score": 0.981176,
+      "frame_start": 759,
+      "frame_end": 775
+    },
+    {
+      "word_index": 34,
+      "sentence_index": 4,
+      "sentence_word_index": 2,
+      "text": "IS",
+      "start": 15.625164,
+      "end": 15.685183,
+      "ctc_score": 0.999167,
+      "frame_start": 781,
+      "frame_end": 784
+    },
+    {
+      "word_index": 35,
+      "sentence_index": 4,
+      "sentence_word_index": 3,
+      "text": "ABOUT",
+      "start": 15.76521,
+      "end": 16.005289,
+      "ctc_score": 0.996973,
+      "frame_start": 788,
+      "frame_end": 800
+    },
+    {
+      "word_index": 36,
+      "sentence_index": 4,
+      "sentence_word_index": 4,
+      "text": "A",
+      "start": 16.085316,
+      "end": 16.105322,
+      "ctc_score": 0.999566,
+      "frame_start": 804,
+      "frame_end": 805
+    },
+    {
+      "word_index": 37,
+      "sentence_index": 4,
+      "sentence_word_index": 5,
+      "text": "DOG",
+      "start": 16.165342,
+      "end": 16.425428,
+      "ctc_score": 0.999971,
+      "frame_start": 808,
+      "frame_end": 821
+    },
+    {
+      "word_index": 38,
+      "sentence_index": 4,
+      "sentence_word_index": 6,
+      "text": "AND",
+      "start": 16.545468,
+      "end": 16.625494,
+      "ctc_score": 0.999764,
+      "frame_start": 827,
+      "frame_end": 831
+    },
+    {
+      "word_index": 39,
+      "sentence_index": 4,
+      "sentence_word_index": 7,
+      "text": "A",
+      "start": 16.705521,
+      "end": 16.725527,
+      "ctc_score": 0.998343,
+      "frame_start": 835,
+      "frame_end": 836
+    },
+    {
+      "word_index": 40,
+      "sentence_index": 4,
+      "sentence_word_index": 8,
+      "text": "BOY",
+      "start": 16.76554,
+      "end": 17.025626,
+      "ctc_score": 0.969791,
+      "frame_start": 838,
+      "frame_end": 851
+    },
+    {
+      "word_index": 41,
+      "sentence_index": 5,
+      "sentence_word_index": 0,
+      "text": "I",
+      "start": 18.406083,
+      "end": 18.426089,
+      "ctc_score": 0.999982,
+      "frame_start": 920,
+      "frame_end": 921
+    },
+    {
+      "word_index": 42,
+      "sentence_index": 5,
+      "sentence_word_index": 1,
+      "text": "SIT",
+      "start": 18.526122,
+      "end": 18.706182,
+      "ctc_score": 0.99837,
+      "frame_start": 926,
+      "frame_end": 935
+    },
+    {
+      "word_index": 43,
+      "sentence_index": 5,
+      "sentence_word_index": 2,
+      "text": "BY",
+      "start": 18.766202,
+      "end": 18.866235,
+      "ctc_score": 0.999983,
+      "frame_start": 938,
+      "frame_end": 943
+    },
+    {
+      "word_index": 44,
+      "sentence_index": 5,
+      "sentence_word_index": 3,
+      "text": "THE",
+      "start": 18.946261,
+      "end": 19.026288,
+      "ctc_score": 0.999716,
+      "frame_start": 947,
+      "frame_end": 951
+    },
+    {
+      "word_index": 45,
+      "sentence_index": 5,
+      "sentence_word_index": 4,
+      "text": "WINDOW",
+      "start": 19.106314,
+      "end": 19.48644,
+      "ctc_score": 0.994489,
+      "frame_start": 955,
+      "frame_end": 974
+    },
+    {
+      "word_index": 46,
+      "sentence_index": 5,
+      "sentence_word_index": 5,
+      "text": "AND",
+      "start": 19.706512,
+      "end": 19.786539,
+      "ctc_score": 0.925003,
+      "frame_start": 985,
+      "frame_end": 989
+    },
+    {
+      "word_index": 47,
+      "sentence_index": 5,
+      "sentence_word_index": 6,
+      "text": "READ",
+      "start": 19.846559,
+      "end": 20.006612,
+      "ctc_score": 0.991791,
+      "frame_start": 992,
+      "frame_end": 1000
+    },
+    {
+      "word_index": 48,
+      "sentence_index": 5,
+      "sentence_word_index": 7,
+      "text": "A",
+      "start": 20.086638,
+      "end": 20.106645,
+      "ctc_score": 0.999598,
+      "frame_start": 1004,
+      "frame_end": 1005
+    },
+    {
+      "word_index": 49,
+      "sentence_index": 5,
+      "sentence_word_index": 8,
+      "text": "PAGE",
+      "start": 20.166664,
+      "end": 20.586803,
+      "ctc_score": 0.988517,
+      "frame_start": 1008,
+      "frame_end": 1029
+    },
+    {
+      "word_index": 50,
+      "sentence_index": 6,
+      "sentence_word_index": 0,
+      "text": "OUTSIDE",
+      "start": 22.047286,
+      "end": 22.607471,
+      "ctc_score": 0.970189,
+      "frame_start": 1102,
+      "frame_end": 1130
+    },
+    {
+      "word_index": 51,
+      "sentence_index": 6,
+      "sentence_word_index": 1,
+      "text": "PEOPLE",
+      "start": 22.867557,
+      "end": 23.167656,
+      "ctc_score": 0.995446,
+      "frame_start": 1143,
+      "frame_end": 1158
+    },
+    {
+      "word_index": 52,
+      "sentence_index": 6,
+      "sentence_word_index": 2,
+      "text": "WALK",
+      "start": 23.227676,
+      "end": 23.447749,
+      "ctc_score": 0.943288,
+      "frame_start": 1161,
+      "frame_end": 1172
+    },
+    {
+      "word_index": 53,
+      "sentence_index": 6,
+      "sentence_word_index": 3,
+      "text": "HOME",
+      "start": 23.547782,
+      "end": 23.727841,
+      "ctc_score": 0.998955,
+      "frame_start": 1177,
+      "frame_end": 1186
+    },
+    {
+      "word_index": 54,
+      "sentence_index": 6,
+      "sentence_word_index": 4,
+      "text": "IN",
+      "start": 23.787861,
+      "end": 23.827874,
+      "ctc_score": 0.999346,
+      "frame_start": 1189,
+      "frame_end": 1191
+    },
+    {
+      "word_index": 55,
+      "sentence_index": 6,
+      "sentence_word_index": 5,
+      "text": "THE",
+      "start": 23.907901,
+      "end": 23.987927,
+      "ctc_score": 0.963747,
+      "frame_start": 1195,
+      "frame_end": 1199
+    },
+    {
+      "word_index": 56,
+      "sentence_index": 6,
+      "sentence_word_index": 6,
+      "text": "LIGHT",
+      "start": 24.047947,
+      "end": 24.288026,
+      "ctc_score": 0.899142,
+      "frame_start": 1202,
+      "frame_end": 1214
+    },
+    {
+      "word_index": 57,
+      "sentence_index": 6,
+      "sentence_word_index": 7,
+      "text": "RAIN",
+      "start": 24.348046,
+      "end": 24.608132,
+      "ctc_score": 0.932361,
+      "frame_start": 1217,
+      "frame_end": 1230
+    },
+    {
+      "word_index": 58,
+      "sentence_index": 7,
+      "sentence_word_index": 0,
+      "text": "THE",
+      "start": 25.948575,
+      "end": 26.048608,
+      "ctc_score": 0.998176,
+      "frame_start": 1297,
+      "frame_end": 1302
+    },
+    {
+      "word_index": 59,
+      "sentence_index": 7,
+      "sentence_word_index": 1,
+      "text": "WOMAN",
+      "start": 26.108628,
+      "end": 26.408727,
+      "ctc_score": 0.981242,
+      "frame_start": 1305,
+      "frame_end": 1320
+    },
+    {
+      "word_index": 60,
+      "sentence_index": 7,
+      "sentence_word_index": 2,
+      "text": "BRINGS",
+      "start": 26.488754,
+      "end": 26.74884,
+      "ctc_score": 0.991665,
+      "frame_start": 1324,
+      "frame_end": 1337
+    },
+    {
+      "word_index": 61,
+      "sentence_index": 7,
+      "sentence_word_index": 3,
+      "text": "ME",
+      "start": 26.828866,
+      "end": 26.908893,
+      "ctc_score": 0.998628,
+      "frame_start": 1341,
+      "frame_end": 1345
+    },
+    {
+      "word_index": 62,
+      "sentence_index": 7,
+      "sentence_word_index": 4,
+      "text": "A",
+      "start": 27.028932,
+      "end": 27.048939,
+      "ctc_score": 0.999871,
+      "frame_start": 1351,
+      "frame_end": 1352
+    },
+    {
+      "word_index": 63,
+      "sentence_index": 7,
+      "sentence_word_index": 5,
+      "text": "CUP",
+      "start": 27.128965,
+      "end": 27.289018,
+      "ctc_score": 0.999985,
+      "frame_start": 1356,
+      "frame_end": 1364
+    },
+    {
+      "word_index": 64,
+      "sentence_index": 7,
+      "sentence_word_index": 6,
+      "text": "OF",
+      "start": 27.389051,
+      "end": 27.429064,
+      "ctc_score": 0.999937,
+      "frame_start": 1369,
+      "frame_end": 1371
+    },
+    {
+      "word_index": 65,
+      "sentence_index": 7,
+      "sentence_word_index": 7,
+      "text": "WARM",
+      "start": 27.509091,
+      "end": 27.729164,
+      "ctc_score": 0.997912,
+      "frame_start": 1375,
+      "frame_end": 1386
+    },
+    {
+      "word_index": 66,
+      "sentence_index": 7,
+      "sentence_word_index": 8,
+      "text": "TEA",
+      "start": 27.86921,
+      "end": 28.089283,
+      "ctc_score": 0.975154,
+      "frame_start": 1393,
+      "frame_end": 1404
+    },
+    {
+      "word_index": 67,
+      "sentence_index": 8,
+      "sentence_word_index": 0,
+      "text": "I",
+      "start": 29.529759,
+      "end": 29.569772,
+      "ctc_score": 0.922643,
+      "frame_start": 1476,
+      "frame_end": 1478
+    },
+    {
+      "word_index": 68,
+      "sentence_index": 8,
+      "sentence_word_index": 1,
+      "text": "BUY",
+      "start": 29.669805,
+      "end": 29.789845,
+      "ctc_score": 0.93867,
+      "frame_start": 1483,
+      "frame_end": 1489
+    },
+    {
+      "word_index": 69,
+      "sentence_index": 8,
+      "sentence_word_index": 2,
+      "text": "THE",
+      "start": 29.889878,
+      "end": 29.969904,
+      "ctc_score": 0.999093,
+      "frame_start": 1494,
+      "frame_end": 1498
+    },
+    {
+      "word_index": 70,
+      "sentence_index": 8,
+      "sentence_word_index": 3,
+      "text": "BOOK",
+      "start": 30.029924,
+      "end": 30.249997,
+      "ctc_score": 0.982577,
+      "frame_start": 1501,
+      "frame_end": 1512
+    },
+    {
+      "word_index": 71,
+      "sentence_index": 8,
+      "sentence_word_index": 4,
+      "text": "AND",
+      "start": 30.390043,
+      "end": 30.470069,
+      "ctc_score": 0.876491,
+      "frame_start": 1519,
+      "frame_end": 1523
+    },
+    {
+      "word_index": 72,
+      "sentence_index": 8,
+      "sentence_word_index": 5,
+      "text": "THANK",
+      "start": 30.550096,
+      "end": 30.750162,
+      "ctc_score": 0.874459,
+      "frame_start": 1527,
+      "frame_end": 1537
+    },
+    {
+      "word_index": 73,
+      "sentence_index": 8,
+      "sentence_word_index": 6,
+      "text": "HER",
+      "start": 30.830188,
+      "end": 30.970235,
+      "ctc_score": 0.993592,
+      "frame_start": 1541,
+      "frame_end": 1548
+    },
+    {
+      "word_index": 74,
+      "sentence_index": 9,
+      "sentence_word_index": 0,
+      "text": "AT",
+      "start": 32.430717,
+      "end": 32.470731,
+      "ctc_score": 0.999866,
+      "frame_start": 1621,
+      "frame_end": 1623
+    },
+    {
+      "word_index": 75,
+      "sentence_index": 9,
+      "sentence_word_index": 1,
+      "text": "HOME",
+      "start": 32.59077,
+      "end": 32.890869,
+      "ctc_score": 0.936111,
+      "frame_start": 1629,
+      "frame_end": 1644
+    },
+    {
+      "word_index": 76,
+      "sentence_index": 9,
+      "sentence_word_index": 2,
+      "text": "I",
+      "start": 33.190969,
+      "end": 33.230982,
+      "ctc_score": 0.914895,
+      "frame_start": 1659,
+      "frame_end": 1661
+    },
+    {
+      "word_index": 77,
+      "sentence_index": 9,
+      "sentence_word_index": 3,
+      "text": "READ",
+      "start": 33.311008,
+      "end": 33.471061,
+      "ctc_score": 0.957402,
+      "frame_start": 1665,
+      "frame_end": 1673
+    },
+    {
+      "word_index": 78,
+      "sentence_index": 9,
+      "sentence_word_index": 4,
+      "text": "ANOTHER",
+      "start": 33.571094,
+      "end": 33.8912,
+      "ctc_score": 0.949131,
+      "frame_start": 1678,
+      "frame_end": 1694
+    },
+    {
+      "word_index": 79,
+      "sentence_index": 9,
+      "sentence_word_index": 5,
+      "text": "PAGE",
+      "start": 33.95122,
+      "end": 34.271326,
+      "ctc_score": 0.981229,
+      "frame_start": 1697,
+      "frame_end": 1713
+    },
+    {
+      "word_index": 80,
+      "sentence_index": 9,
+      "sentence_word_index": 6,
+      "text": "BEFORE",
+      "start": 34.391365,
+      "end": 34.771491,
+      "ctc_score": 0.964595,
+      "frame_start": 1719,
+      "frame_end": 1738
+    },
+    {
+      "word_index": 81,
+      "sentence_index": 9,
+      "sentence_word_index": 7,
+      "text": "BED",
+      "start": 34.831511,
+      "end": 35.111603,
+      "ctc_score": 0.990795,
+      "frame_start": 1741,
+      "frame_end": 1755
+    }
+  ],
+  "boundary_evidence": [
+    {
+      "method": "measured_pcm_silence_midpoint",
+      "silence": {
+        "start": 2.920729166666667,
+        "end": 4.165104166666667,
+        "duration": 1.244375
+      },
+      "usable_silence_start": 2.920729166666667,
+      "usable_silence_end": 4.165104166666667,
+      "after_sentence_index": 0,
+      "caption_boundary": 3.542917,
+      "left_ctc_last_word_end": 2.840939,
+      "right_ctc_first_word_start": 4.181382
+    },
+    {
+      "method": "measured_pcm_silence_midpoint",
+      "silence": {
+        "start": 6.444041666666666,
+        "end": 7.6854375,
+        "duration": 1.2413958333333333
+      },
+      "usable_silence_start": 6.444041666666666,
+      "usable_silence_end": 7.6854375,
+      "after_sentence_index": 1,
+      "caption_boundary": 7.06474,
+      "left_ctc_last_word_end": 6.322089,
+      "right_ctc_first_word_start": 7.742559
+    },
+    {
+      "method": "measured_pcm_silence_midpoint",
+      "silence": {
+        "start": 10.175583333333334,
+        "end": 11.419833333333333,
+        "duration": 1.24425
+      },
+      "usable_silence_start": 10.175583333333334,
+      "usable_silence_end": 11.419833333333333,
+      "after_sentence_index": 2,
+      "caption_boundary": 10.797708,
+      "left_ctc_last_word_end": 10.023312,
+      "right_ctc_first_word_start": 11.463788
+    },
+    {
+      "method": "measured_pcm_silence_midpoint",
+      "silence": {
+        "start": 13.766395833333334,
+        "end": 15.0115625,
+        "duration": 1.2451666666666668
+      },
+      "usable_silence_start": 13.766395833333334,
+      "usable_silence_end": 15.004959,
+      "after_sentence_index": 3,
+      "caption_boundary": 14.385677,
+      "left_ctc_last_word_end": 13.604496,
+      "right_ctc_first_word_start": 15.004959
+    },
+    {
+      "method": "measured_pcm_silence_midpoint",
+      "silence": {
+        "start": 17.140208333333334,
+        "end": 18.356604166666667,
+        "duration": 1.2163958333333333
+      },
+      "usable_silence_start": 17.140208333333334,
+      "usable_silence_end": 18.356604166666667,
+      "after_sentence_index": 4,
+      "caption_boundary": 17.748406,
+      "left_ctc_last_word_end": 17.025626,
+      "right_ctc_first_word_start": 18.406083
+    },
+    {
+      "method": "measured_pcm_silence_midpoint",
+      "silence": {
+        "start": 20.749958333333332,
+        "end": 21.964541666666666,
+        "duration": 1.2145833333333333
+      },
+      "usable_silence_start": 20.749958333333332,
+      "usable_silence_end": 21.964541666666666,
+      "after_sentence_index": 5,
+      "caption_boundary": 21.35725,
+      "left_ctc_last_word_end": 20.586803,
+      "right_ctc_first_word_start": 22.047286
+    },
+    {
+      "method": "measured_pcm_silence_midpoint",
+      "silence": {
+        "start": 24.74747916666667,
+        "end": 25.953854166666666,
+        "duration": 1.206375
+      },
+      "usable_silence_start": 24.74747916666667,
+      "usable_silence_end": 25.948575,
+      "after_sentence_index": 6,
+      "caption_boundary": 25.348027,
+      "left_ctc_last_word_end": 24.608132,
+      "right_ctc_first_word_start": 25.948575
+    },
+    {
+      "method": "measured_pcm_silence_midpoint",
+      "silence": {
+        "start": 28.2364375,
+        "end": 29.4903125,
+        "duration": 1.253875
+      },
+      "usable_silence_start": 28.2364375,
+      "usable_silence_end": 29.4903125,
+      "after_sentence_index": 7,
+      "caption_boundary": 28.863375,
+      "left_ctc_last_word_end": 28.089283,
+      "right_ctc_first_word_start": 29.529759
+    },
+    {
+      "method": "measured_pcm_silence_midpoint",
+      "silence": {
+        "start": 31.09252083333333,
+        "end": 32.33772916666667,
+        "duration": 1.2452083333333333
+      },
+      "usable_silence_start": 31.09252083333333,
+      "usable_silence_end": 32.33772916666667,
+      "after_sentence_index": 8,
+      "caption_boundary": 31.715125,
+      "left_ctc_last_word_end": 30.970235,
+      "right_ctc_first_word_start": 32.430717
+    }
+  ],
+  "silence_intervals": [
+    {
+      "start": 0.0,
+      "end": 0.24702083333333333,
+      "duration": 0.24702083333333333
+    },
+    {
+      "start": 1.0525833333333334,
+      "end": 1.3388541666666667,
+      "duration": 0.2862708333333333
+    },
+    {
+      "start": 2.920729166666667,
+      "end": 4.165104166666667,
+      "duration": 1.244375
+    },
+    {
+      "start": 6.444041666666666,
+      "end": 7.6854375,
+      "duration": 1.2413958333333333
+    },
+    {
+      "start": 10.175583333333334,
+      "end": 11.419833333333333,
+      "duration": 1.24425
+    },
+    {
+      "start": 13.766395833333334,
+      "end": 15.0115625,
+      "duration": 1.2451666666666668
+    },
+    {
+      "start": 17.140208333333334,
+      "end": 18.356604166666667,
+      "duration": 1.2163958333333333
+    },
+    {
+      "start": 20.749958333333332,
+      "end": 21.964541666666666,
+      "duration": 1.2145833333333333
+    },
+    {
+      "start": 22.677958333333333,
+      "end": 22.870041666666665,
+      "duration": 0.19208333333333333
+    },
+    {
+      "start": 24.74747916666667,
+      "end": 25.953854166666666,
+      "duration": 1.206375
+    },
+    {
+      "start": 28.2364375,
+      "end": 29.4903125,
+      "duration": 1.253875
+    },
+    {
+      "start": 31.09252083333333,
+      "end": 32.33772916666667,
+      "duration": 1.2452083333333333
+    },
+    {
+      "start": 33.0006875,
+      "end": 33.1610625,
+      "duration": 0.160375
+    },
+    {
+      "start": 35.21791666666667,
+      "end": 36.312,
+      "duration": 1.0940833333333333
+    }
+  ],
+  "audio_file": "natural-slow.wav",
+  "audio_sha256": "947dc8fc7e8cbf55c9dae53bd7d9c0f7bd2cbd36f7ac5ef1a356ce8a9aa077bb",
+  "audio_sample_rate": 48000,
+  "audio_samples": 1742976,
+  "lesson_file": "bookshop.json",
+  "english_sha256": "8866c46b8a8675a7bbc13c39251e2bea610d9f51ea81acd503eb9e2f0f97591b",
+  "source_audio_unchanged": true,
+  "model": {
+    "bundle": "WAV2VEC2_ASR_BASE_960H",
+    "checkpoint_file": "wav2vec2_fairseq_base_ls960_asr_ls960.pth",
+    "checkpoint_source": "https://download.pytorch.org/torchaudio/models/wav2vec2_fairseq_base_ls960_asr_ls960.pth",
+    "checkpoint_sha256": "488fd4f16de84438ffc945334278c1b9fb9b7159a806c1080b16111a958c945d",
+    "torch_version": "2.5.1+cpu",
+    "torchaudio_version": "2.5.1+cpu",
+    "reference": "https://docs.pytorch.org/audio/2.5.0/tutorials/forced_alignment_tutorial.html",
+    "alignment_api": "torchaudio.functional.forced_align + merge_tokens",
+    "ctc_sample_rate": 16000,
+    "emission_frames": 1815,
+    "frame_seconds": 0.020006611570247933
+  },
+  "alignment_runtime_seconds": 12.1537290999986,
+  "timing": {
+    "frame_seconds": 0.020006611570247933,
+    "conversion": "CTC frame index * original duration / emission frame count",
+    "precision": "Acoustic CTC estimates at about 20 ms frame resolution; not phonetic ground truth",
+    "subtitle_frame_quantization": "Not quantized here; renderer may choose nearest video frame without changing audio",
+    "silence_threshold_db": -40,
+    "silence_min_seconds": 0.16,
+    "usable_boundary_silence_min_seconds": 0.12
+  }
+}
