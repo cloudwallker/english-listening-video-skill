@@ -28,7 +28,7 @@ The default workflow starts with a whole-paragraph Edge audition at native `-20%
 |---|---|
 | Natural slower audition | US Jenny by default, one complete paragraph and one pass; adjustable native voice/rate, WAV and MP3 output |
 | Preserve approved audio | Byte-identical WAV copy; optional byte-identical MP3 attachment |
-| Three caption layers | Editable English, teaching IPA and Chinese captions, with optional vocabulary notes |
+| Three caption layers | Editable English, teaching IPA and Chinese captions; vocabulary notes can be retained in the content JSON |
 | Acoustic alignment | Official TorchAudio known-text CTC and measured silence boundaries; insufficient evidence stops production |
 | Gentle layered animation | Original bookshop artwork with independent rain, steam, page and character motion; landscape and portrait |
 | Legacy calibrated mode | Explicit support for target WPM, local Kokoro ONNX and Windows SAPI |
