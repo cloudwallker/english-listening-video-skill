@@ -4,7 +4,7 @@
 
 **自然慢讲 · 中英字幕与 IPA · 试听通过后复用原音轨**
 
-**[▶ 播放 36 秒演示视频](https://github.com/cloudwallker/english-listening-video-skill/blob/main/examples/bookshop/video.mp4)** · [试听配音](examples/bookshop/narration.mp3)
+**[▶ 播放 36 秒演示视频](https://github.com/user-attachments/assets/010f91a9-325c-4534-8a42-57909eb982f7)** · [试听配音](examples/bookshop/narration.mp3)
 
 `english-listening-video`
 
@@ -12,9 +12,9 @@
 
 [了解能力](#了解能力) · [成品案例](#成品案例) · [快速开始](#快速开始) · [一句话调用](#一句话调用) · [命令行](#命令行)
 
-[![点击封面播放演示视频：街角书店，带英文、IPA、中文字幕](examples/bookshop/cover.png)](https://github.com/cloudwallker/english-listening-video-skill/blob/main/examples/bookshop/video.mp4)
+https://github.com/user-attachments/assets/010f91a9-325c-4534-8a42-57909eb982f7
 
-点击上方封面或“播放演示视频”，进入 GitHub 视频播放器。
+36 秒有声演示：街角书店，带自然慢讲配音、英文、中文和 IPA 字幕。点击上方播放器即可观看；[仓库内 MP4](examples/bookshop/video.mp4) 保留同一份成品。
 
 ## 项目简介
 
@@ -39,7 +39,7 @@ IPA 由 Agent 按稿件和口音核查，是教学参考。对齐脚本不会自
 
 **街角书店｜82 词、10 句、约 36 秒**
 
-[播放视频](examples/bookshop/video.mp4) · [试听 MP3](examples/bookshop/narration.mp3) · [查看字幕](examples/bookshop/captions.srt) · [编辑稿件](examples/bookshop.json)
+[播放视频](https://github.com/user-attachments/assets/010f91a9-325c-4534-8a42-57909eb982f7) · [试听 MP3](examples/bookshop/narration.mp3) · [查看字幕](examples/bookshop/captions.srt) · [编辑稿件](examples/bookshop.json)
 
 示例使用 Edge `en-US-JennyNeural`，原生 `-20%`，实测约 **135 WPM（含自然停顿）**。1920×1080、24 fps，带英文、中文字幕与 IPA。插画为本项目原创生成素材，文字由代码独立绘制。
 
@@ -169,5 +169,5 @@ python -X utf8 -m unittest discover -s tests -v
 
 Edge 在线配音不需要本项目配置付费 API 密钥，英文会发送至微软服务；可用性与使用条件以服务提供方为准。Kokoro 可本地 CPU 运行，模型需自行下载。付费配音服务尚未接入。
 
-本仓库不包含第三方模型、字体或本机凭据。依赖与模型遵循各自许可证，原创插画来源见 `assets/provenance.json`。仓库当前未指定开源许可证，公开可见不等于授予任意再分发许可。
+本项目采用 [MIT 许可证](LICENSE)，版权署名为 `cloudwallker`。本仓库不包含第三方模型、字体或本机凭据；依赖、模型和外部服务遵循各自许可证与使用条款，原创插画来源见 `assets/provenance.json`。
 

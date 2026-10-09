@@ -4,7 +4,7 @@
 
 **Native slower speech · English, Chinese and IPA captions · Reuse the approved audio**
 
-**[▶ Watch the 36-second demo](https://github.com/cloudwallker/english-listening-video-skill/blob/main/examples/bookshop/video.mp4)** · [Listen to the voice](examples/bookshop/narration.mp3)
+**[▶ Watch the 36-second demo](https://github.com/user-attachments/assets/010f91a9-325c-4534-8a42-57909eb982f7)** · [Listen to the voice](examples/bookshop/narration.mp3)
 
 `english-listening-video`
 
@@ -12,9 +12,9 @@
 
 [Features](#features) · [Example](#example) · [Quick start](#quick-start) · [Prompts](#prompts) · [Command line](#command-line)
 
-[![Play the demo: original bookshop scene with English, IPA and Chinese captions](examples/bookshop/cover.png)](https://github.com/cloudwallker/english-listening-video-skill/blob/main/examples/bookshop/video.mp4)
+https://github.com/user-attachments/assets/010f91a9-325c-4534-8a42-57909eb982f7
 
-Click the cover or demo link to open GitHub's video player.
+The 36-second narrated demo includes native slower speech, English, Chinese and IPA captions. Play it above; the [repository MP4](examples/bookshop/video.mp4) preserves the same video.
 
 ## About
 
@@ -39,7 +39,7 @@ The agent checks teaching IPA; alignment does not generate IPA or prove pronunci
 
 **The Little Bookshop — 82 words, 10 sentences, about 36 seconds**
 
-[Watch MP4](examples/bookshop/video.mp4) · [Listen to MP3](examples/bookshop/narration.mp3) · [Captions](examples/bookshop/captions.srt) · [Editable story](examples/bookshop.json)
+[Watch MP4](https://github.com/user-attachments/assets/010f91a9-325c-4534-8a42-57909eb982f7) · [Listen to MP3](examples/bookshop/narration.mp3) · [Captions](examples/bookshop/captions.srt) · [Editable story](examples/bookshop.json)
 
 Edge `en-US-JennyNeural`, native `-20%`, approximately **135 WPM including native pauses**. 1920×1080 at 24 fps. Original generated illustrations are composited separately from the English, IPA and Chinese text.
 
@@ -169,5 +169,5 @@ Tests use real PCM and FFmpeg with acoustic fixtures replacing external speech c
 
 Edge requires no paid API key configured by this project and sends the English text to Microsoft's service. Availability and usage terms depend on the provider. Kokoro runs locally on CPU with separately downloaded models. Paid voice APIs are not integrated.
 
-Third-party models, fonts and local credentials are excluded. Dependencies and models retain their own licenses; original artwork provenance is recorded in `assets/provenance.json`. No open-source license has been selected for this repository; public visibility does not grant unrestricted redistribution rights.
+This project uses the [MIT License](LICENSE), with copyright attributed to `cloudwallker`. Third-party models, fonts and local credentials are excluded. Dependencies, models and external services retain their own licenses and terms; original artwork provenance is recorded in `assets/provenance.json`.
 
