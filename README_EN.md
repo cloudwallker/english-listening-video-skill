@@ -4,13 +4,17 @@
 
 **Native slower speech · English, Chinese and IPA captions · Reuse the approved audio**
 
+**[▶ Watch the 36-second demo](https://github.com/cloudwallker/english-listening-video-skill/blob/main/examples/bookshop/video.mp4)** · [Listen to the voice](examples/bookshop/narration.mp3)
+
 `english-listening-video`
 
 [中文](README.md) · English
 
 [Features](#features) · [Example](#example) · [Quick start](#quick-start) · [Prompts](#prompts) · [Command line](#command-line)
 
-![Original bookshop scene with English, IPA and Chinese captions](examples/bookshop/cover.png)
+[![Play the demo: original bookshop scene with English, IPA and Chinese captions](examples/bookshop/cover.png)](https://github.com/cloudwallker/english-listening-video-skill/blob/main/examples/bookshop/video.mp4)
+
+Click the cover or demo link to open GitHub's video player.
 
 ## About
 

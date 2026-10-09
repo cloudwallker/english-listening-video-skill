@@ -4,13 +4,17 @@
 
 **自然慢讲 · 中英字幕与 IPA · 试听通过后复用原音轨**
 
+**[▶ 播放 36 秒演示视频](https://github.com/cloudwallker/english-listening-video-skill/blob/main/examples/bookshop/video.mp4)** · [试听配音](examples/bookshop/narration.mp3)
+
 `english-listening-video`
 
 中文 · [English](README_EN.md)
 
 [了解能力](#了解能力) · [成品案例](#成品案例) · [快速开始](#快速开始) · [一句话调用](#一句话调用) · [命令行](#命令行)
 
-![街角书店：原创插画场景与英文、IPA、中文字幕](examples/bookshop/cover.png)
+[![点击封面播放演示视频：街角书店，带英文、IPA、中文字幕](examples/bookshop/cover.png)](https://github.com/cloudwallker/english-listening-video-skill/blob/main/examples/bookshop/video.mp4)
+
+点击上方封面或“播放演示视频”，进入 GitHub 视频播放器。
 
 ## 项目简介
 
