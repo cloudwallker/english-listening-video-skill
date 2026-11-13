@@ -1,55 +1,55 @@
-# 自然慢讲英语视频
+# Natural English Listening Videos
 
-### 把英文短文，做成能反复听的英语视频
+### Turn short English stories into videos you can listen to again
 
-**自然慢讲 · 中英字幕与 IPA · 试听通过后复用原音轨**
+**Native slower speech · English, Chinese and IPA captions · Reuse the approved audio**
 
-**[▶ 播放 36 秒演示视频](https://github.com/user-attachments/assets/010f91a9-325c-4534-8a42-57909eb982f7)** · [试听配音](examples/bookshop/narration.mp3)
+**[▶ Watch the 36-second demo](https://github.com/user-attachments/assets/010f91a9-325c-4534-8a42-57909eb982f7)** · [Listen to the voice](examples/bookshop/narration.mp3)
 
 `english-listening-video`
 
-中文 · [English](README_EN.md)
+[中文](README_ZH.md) · English
 
-[了解能力](#了解能力) · [成品案例](#成品案例) · [快速开始](#快速开始) · [一句话调用](#一句话调用) · [命令行](#命令行)
+[Features](#features) · [Example](#example) · [Quick start](#quick-start) · [Prompts](#prompts) · [Command line](#command-line)
 
 https://github.com/user-attachments/assets/010f91a9-325c-4534-8a42-57909eb982f7
 
-36 秒有声演示：街角书店，带自然慢讲配音、英文、中文和 IPA 字幕。点击上方播放器即可观看；[仓库内 MP4](examples/bookshop/video.mp4) 保留同一份成品。
+The 36-second narrated demo includes native slower speech, English, Chinese and IPA captions. Play it above; the [repository MP4](examples/bookshop/video.mp4) preserves the same video.
 
-## 项目简介
+## About
 
-一个用于制作英语磨耳朵视频的 Agent Skill。提供英文短文、中文素材或主题，由 Agent 整理英文、翻译和教学音标，脚本生成配音、对齐字幕并合成轻动画视频。
+An Agent Skill for producing English listening videos from English text, Chinese material or a topic. The agent prepares the story, translation and teaching IPA; scripts synthesize speech, align captions and render gentle animation.
 
-默认先做自然慢讲试听：整段交给 Edge 神经声音，以原生 `-20%` 速率讲述，保留意群、重音和停顿。声音通过后，同一条 WAV 直接用于视频，不重新配音、不拉伸音轨、不追加停顿。实际词速由录音决定，不强行凑到 100 WPM。
+The default workflow starts with a whole-paragraph Edge audition at native `-20%` rate. It preserves native phrasing, stress and pauses. Once approved, the same WAV goes into the video without resynthesis, time stretching or added pauses. WPM is measured from the recording rather than forced to 100.
 
-## 了解能力
+## Features
 
-| 能力 | 实际行为 |
+| Capability | Behavior |
 |---|---|
-| 自然慢讲试听 | 默认美式 Jenny、整段单遍；支持原生速率与声音选择，输出 WAV、MP3 和实测数据 |
-| 冻结已通过的音轨 | WAV 原样复制，按原轨合成视频；可附带原样 MP3，哈希不变 |
-| 英文、中文和 IPA | 固定三层字幕区，句级教学 IPA 可编辑；内容 JSON 可保留重点词释义 |
-| 根据真实声音换句 | 官方 TorchAudio known-text CTC 对齐，再结合真实静音确定换句点；质量不足时停止 |
-| 分层轻动画 | 原创书店插画与透明角色，雨滴、茶汽、翻页和轻动作独立运动；支持横屏与竖屏 |
-| 保留旧配音路线 | 显式 `calibrated` 模式支持 Kokoro ONNX、本地 Windows SAPI 和目标词速校准 |
+| Natural slower audition | US Jenny by default, one complete paragraph and one pass; adjustable native voice/rate, WAV and MP3 output |
+| Preserve approved audio | Byte-identical WAV copy; optional byte-identical MP3 attachment |
+| Three caption layers | Editable English, teaching IPA and Chinese captions; vocabulary notes can be retained in the content JSON |
+| Acoustic alignment | Official TorchAudio known-text CTC and measured silence boundaries; insufficient evidence stops production |
+| Gentle layered animation | Original bookshop artwork with independent rain, steam, page and character motion; landscape and portrait |
+| Legacy calibrated mode | Explicit support for target WPM, local Kokoro ONNX and Windows SAPI |
 
-IPA 由 Agent 按稿件和口音核查，是教学参考。对齐脚本不会自动生成 IPA，也不能据此证明每个音发得正确。新主题需要匹配的插画素材；当前内置场景是书店。小说分章、付费配音 API 和自动生成任意主题动画尚未接入。
+The agent checks teaching IPA; alignment does not generate IPA or prove pronunciation accuracy. The built-in scene is a bookshop. New topics need suitable artwork. Novel chapter processing, paid voice APIs and automatic animation for arbitrary scenes are not implemented.
 
-## 成品案例
+## Example
 
-**街角书店｜82 词、10 句、约 36 秒**
+**The Little Bookshop — 82 words, 10 sentences, about 36 seconds**
 
-[播放视频](https://github.com/user-attachments/assets/010f91a9-325c-4534-8a42-57909eb982f7) · [试听 MP3](examples/bookshop/narration.mp3) · [查看字幕](examples/bookshop/captions.srt) · [编辑稿件](examples/bookshop.json)
+[Watch MP4](https://github.com/user-attachments/assets/010f91a9-325c-4534-8a42-57909eb982f7) · [Listen to MP3](examples/bookshop/narration.mp3) · [Captions](examples/bookshop/captions.srt) · [Editable story](examples/bookshop.json)
 
-示例使用 Edge `en-US-JennyNeural`，原生 `-20%`，实测约 **135 WPM（含自然停顿）**。1920×1080、24 fps，带英文、中文字幕与 IPA。插画为本项目原创生成素材，文字由代码独立绘制。
+Edge `en-US-JennyNeural`, native `-20%`, approximately **135 WPM including native pauses**. 1920×1080 at 24 fps. Original generated illustrations are composited separately from the English, IPA and Chinese text.
 
-配套 [WAV](examples/bookshop/narration.wav) 和[对齐结果](examples/bookshop/alignment.json) 可直接用于本地复现，不必重新配音或下载对齐模型。MP4 使用 AAC 压缩声音，独立 WAV 保留已通过音轨的原始字节。
+The included [WAV](examples/bookshop/narration.wav) and [alignment](examples/bookshop/alignment.json) let you reproduce the example without new speech requests or model downloads. AAC compresses the video audio; the separate WAV preserves the approved bytes.
 
-## 快速开始
+## Quick start
 
-### 1. 安装 Skill
+### 1. Install the skill
 
-Windows / PowerShell，克隆到一个尚不存在的技能目录：
+Windows / PowerShell, using a destination that does not already exist:
 
 ```powershell
 $codexRoot = if ($env:CODEX_HOME) { $env:CODEX_HOME } else { Join-Path $HOME '.codex' }
@@ -59,7 +59,7 @@ git clone https://github.com/cloudwallker/english-listening-video-skill.git (Joi
 Set-Location (Join-Path $skillsDir 'english-listening-video')
 ```
 
-macOS / Linux：
+macOS / Linux:
 
 ```bash
 skill_dir="${CODEX_HOME:-$HOME/.codex}/skills/english-listening-video"
@@ -68,106 +68,105 @@ git clone https://github.com/cloudwallker/english-listening-video-skill.git "$sk
 cd "$skill_dir"
 ```
 
-安装后确认 `english-listening-video/SKILL.md` 存在，新开 Codex 会话。已有同名技能时先保留本机配置，再更新该目录；不要把新文件夹嵌套进旧文件夹。
+Confirm that `english-listening-video/SKILL.md` exists, then open a new Codex conversation. When updating an existing installation, preserve local settings and avoid nesting another skill folder inside it.
 
-### 2. 准备依赖
+### 2. Prepare dependencies
 
-需要 Python 3.9+、FFmpeg、FFprobe，以及覆盖中文和 IPA 的字体。FFmpeg 与 FFprobe 需能在终端直接调用。
+Requires Python 3.9+, FFmpeg, FFprobe and fonts covering Chinese and IPA. Both FFmpeg commands must be available on PATH.
 
 ```powershell
 python -m pip install -r scripts/requirements.txt
 python -X utf8 scripts/render_video.py --lesson examples/bookshop.json --output-dir sample --style paper-animation --width 1920 --height 1080 --validate-only
 ```
 
-该校验只检查稿件、字体与版面，不联网、不合成、不写输出。Windows 默认尝试系统字体；其他环境可用 `--font-en`、`--font-zh`、`--font-ipa` 指定字体。macOS / Linux 没有 `python` 命令时改用 `python3`。
+Validation checks the lesson, fonts and layout without networking, synthesis or output writes. Use `--font-en`, `--font-zh` and `--font-ipa` to supply fonts. Replace `python` with `python3` where needed.
 
-### 3. 在 Codex 中说一句话
+### 3. Ask Codex
 
 ```text
-使用 $english-listening-video，把这段英文做成自然慢讲磨耳朵视频。
-先给我同稿试听，通过后复用原音轨，带英文、中文和 IPA 字幕。
+Use $english-listening-video to turn this English story into a natural slower listening video.
+Give me an audition first. Once approved, reuse its audio with English, Chinese and IPA captions.
 ```
 
-随后给出正文或主题。Agent 负责内容理解、翻译、音标核查和试听选择；Python 脚本负责真实配音、对齐与渲染，无需另配文本模型 API 密钥。
+Provide the text or topic. The agent handles content, translation, IPA checks and audition selection; scripts handle synthesis, alignment and rendering. No additional text-model API key is needed.
 
-## 一句话调用
+## Prompts
 
-| 场景 | 对 Agent 说 |
+| Goal | Ask the agent |
 |---|---|
-| 给英文短文 | 使用 `$english-listening-video`，保留这段英文，先生成自然慢讲试听。 |
-| 给中文或主题 | 使用 `$english-listening-video`，围绕雨天书店写 A1–A2 小故事，附中文和 IPA。 |
-| 已通过声音 | 这个音轨通过，使用 `$english-listening-video` 直接输出适配视频，保留原语速与停顿。 |
-| 正常语速 | 使用 `$english-listening-video`，用原生正常语速做同稿试听。 |
-| 修改字幕 | 使用 `$english-listening-video`，只调整中文和音标，复用已通过的 WAV 与对齐结果。 |
+| English text | Use `$english-listening-video`, preserve this English text and make a natural slower audition first. |
+| Chinese text or topic | Use `$english-listening-video` to write an A1–A2 rainy bookshop story with Chinese and IPA. |
+| Approved audio | This track is approved. Use `$english-listening-video` to make the video with its original speed and pauses. |
+| Normal speed | Use `$english-listening-video` to make a same-script audition at native normal speed. |
+| Caption changes | Use `$english-listening-video` to edit only Chinese and IPA, reusing the approved WAV and alignment. |
 
-## 命令行
+## Command line
 
-以下命令在技能目录执行，输出目录使用新名字。`--overwrite` 才允许覆盖已有成品；不允许覆盖输入文件。
+Run from the skill directory and use a new output directory. Overwriting generated outputs requires `--overwrite`; inputs remain protected.
 
-### 先做自然慢讲试听
+### Make an audition
 
 ```powershell
 python -X utf8 scripts/render_video.py --lesson examples/bookshop.json --output-dir audition --speech-mode natural --audio-only
 ```
 
-输出 `narration.wav`、`narration.mp3`、`metadata.json`、`lesson.json` 和 `en.txt`。正常语速加 `--edge-rate=+0%`；调整自然慢讲可使用 `--edge-rate=-15%` 等原生速率，重新试听再选。
+Produces `narration.wav`, `narration.mp3`, `metadata.json`, `lesson.json` and `en.txt`. Use `--edge-rate=+0%` for native normal speed, or another native rate such as `--edge-rate=-15%` and audition again.
 
-### 对齐选定音轨
+### Align the selected audio
 
-新音轨需要独立的可选对齐环境。推荐 Python 3.10–3.12；首次运行从 PyTorch 官方地址下载约 378 MB 权重，CPU 即可运行，不需要 GPU。
+New tracks need the optional alignment environment. Python 3.10–3.12 is recommended. First use downloads about 378 MB of official PyTorch weights; inference runs on CPU.
 
-Windows / Linux：
+Windows / Linux:
 
 ```powershell
 python -m venv .venv-align
-# Windows；Linux 改为 .venv-align/bin/python
+# Windows; use .venv-align/bin/python on Linux
 .venv-align/Scripts/python -m pip install torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cpu
 .venv-align/Scripts/python -m pip install numpy==1.26.4
 .venv-align/Scripts/python -X utf8 scripts/align_audio.py --audio audition/narration.wav --lesson examples/bookshop.json --output alignment.json
 ```
 
-macOS 可在独立环境中从 PyPI 安装 `scripts/requirements-align.txt`。模型用 `--model-dir` 指定缓存位置，已有权重时可加 `--offline`。脚本只分析音轨，输入 WAV 的哈希保持不变；低置信度或缺少可靠换句证据时返回失败，应核查声音或稿件后再制作视频。
+On macOS, install `scripts/requirements-align.txt` from PyPI in a separate environment. `--model-dir` selects the model cache; `--offline` requires existing weights. Input audio bytes are unchanged. Low-confidence words or unreliable transitions require review before rendering.
 
-### 用原音轨合成视频
+### Render using the original track
 
 ```powershell
 python -X utf8 scripts/render_video.py --lesson examples/bookshop.json --output-dir sample --approved-audio audition/narration.wav --approved-mp3 audition/narration.mp3 --alignment alignment.json --style paper-animation --width 1920 --height 1080 --fps 24
 ```
 
-想直接复现示例，把上面三条输入路径替换为 `examples/bookshop/narration.wav`、`examples/bookshop/narration.mp3` 和 `examples/bookshop/alignment.json`。竖屏用 `--width 1080 --height 1920`。
+To reproduce the bundled example, replace the three media/alignment input paths with `examples/bookshop/narration.wav`, `examples/bookshop/narration.mp3` and `examples/bookshop/alignment.json`. Use `--width 1080 --height 1920` for portrait.
 
-### 可选：旧目标词速流程
+### Optional calibrated workflow
 
 ```powershell
 python -X utf8 scripts/render_video.py --lesson examples/bookshop.json --output-dir audition-calibrated --speech-mode calibrated --tts edge --target-wpm 100 --repeats 1 --audio-only
 ```
 
-此模式按句配音、校准词速并追加句间停顿，可能使用保调变速；听感与自然模式不同。Kokoro、SAPI、缓存和逐句 bundle 复用见[配音与动画流程](references/voice-animation-workflow.md)。
+This mode synthesizes sentences separately, calibrates WPM and adds sentence gaps; it may use pitch-preserving time stretching. See the [voice and animation guide](references/voice-animation-workflow.md) for Kokoro, SAPI, caches and sentence bundles.
 
-## 输出文件
+## Outputs
 
-| 文件 | 用途 |
+| File | Purpose |
 |---|---|
-| `video.mp4` | 有声 H.264/AAC 成片 |
-| `narration.wav` / `.mp3` | 独立试听；批准 WAV 原样保留 |
-| `captions.srt` | 英文、IPA、中文三层字幕 |
-| `lesson.json` | 可编辑英文、中文、IPA 与重点词 |
-| `timeline.json` | 实际音频哈希、时长与字幕时间轴 |
-| `cover.png` / `preview.png` | 封面和成片预览 |
+| `video.mp4` | H.264/AAC video |
+| `narration.wav` / `.mp3` | Standalone listening audio; approved WAV bytes preserved |
+| `captions.srt` | English, IPA and Chinese captions |
+| `lesson.json` | Editable story, translation, IPA and vocabulary |
+| `timeline.json` | Audio hashes, duration and caption timing |
+| `cover.png` / `preview.png` | Cover and preview |
 
-## 文档与测试
+## Documentation and tests
 
-[Skill 入口](SKILL.md) · [内容与音轨契约](references/production-contract.md) · [配音与动画流程](references/voice-animation-workflow.md) · [素材来源](assets/provenance.json)
+[Skill entry](SKILL.md) · [Production contract](references/production-contract.md) · [Voice and animation](references/voice-animation-workflow.md) · [Artwork provenance](assets/provenance.json)
 
 ```powershell
 python -X utf8 -m unittest discover -s tests -v
 ```
 
-基本测试使用真实 PCM 和 FFmpeg，外部 TTS 以声学夹具替代；对齐算法测试不下载模型。测试不替代主观试听。当前运行验证环境为 Windows，其他系统仍需检查字体和 FFmpeg 配置。
+Tests use real PCM and FFmpeg with acoustic fixtures replacing external speech calls; alignment unit tests do not download models. They do not replace listening review. Runtime verification was performed on Windows; other systems need font and FFmpeg checks.
 
-## 费用、数据与许可
+## Cost, data and licensing
 
-Edge 在线配音不需要本项目配置付费 API 密钥，英文会发送至微软服务；可用性与使用条件以服务提供方为准。Kokoro 可本地 CPU 运行，模型需自行下载。付费配音服务尚未接入。
+Edge requires no paid API key configured by this project and sends the English text to Microsoft's service. Availability and usage terms depend on the provider. Kokoro runs locally on CPU with separately downloaded models. Paid voice APIs are not integrated.
 
-本项目采用 [MIT 许可证](LICENSE)，版权署名为 `cloudwallker`。本仓库不包含第三方模型、字体或本机凭据；依赖、模型和外部服务遵循各自许可证与使用条款，原创插画来源见 `assets/provenance.json`。
-
+This project uses the [MIT License](LICENSE), with copyright attributed to `cloudwallker`. Third-party models, fonts and local credentials are excluded. Dependencies, models and external services retain their own licenses and terms; original artwork provenance is recorded in `assets/provenance.json`.
